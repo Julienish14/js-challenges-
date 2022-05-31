@@ -18,8 +18,7 @@ const famMember = [{fatherName:"alex",motherName:"Pam",childrenNumber:3}, {fathe
                 }
                 fam.average = Math.round(avg);
             });
-
-         resolve(newFam);
+        resolve(newFam);
         },
         1000);
     });

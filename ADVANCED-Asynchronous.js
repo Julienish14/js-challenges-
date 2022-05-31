@@ -7,9 +7,9 @@ setStudentAgeApi = (student, age) => {
             if(age < 0)
                 reject ("Bad Age")
          else
-                  resolve(student)
+                resolve(student)
         },
-            500);
+        500);
     });
  }
  let student = {name:"Mable" }

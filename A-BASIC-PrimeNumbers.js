@@ -21,4 +21,4 @@ function whichIsPrime(arr){
     return newarray;
 }
 let array = [2, 3, 5, 1, 4, 11, 8];
-console.log(whichIsPrime(array));
+console.log(" The prime number are : " +whichIsPrime(array));
